@@ -1,0 +1,75 @@
+.navStaticLight {
+  height: 120px;
+  /*border: 2px solid gray;*/
+}
+
+.linkList {
+  /*border: 2px solid red;*/
+  height: 100%;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+.linkList .navListItem{
+  list-style-type: none;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.navListItem a {
+  color: rgb(37, 37, 37);
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.navListItem a:hover {
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+}
+
+.mid-nav {
+  /*border: 2px solid blue;*/
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mid-nav img {
+  margin-top: 10px;
+  height: 50px;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.left-nav {
+  /*border: 2px solid blue;*/
+  height: 100%;
+}
+
+.right-nav {
+  /*border: 2px solid blue;*/
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right-nav .subButton {
+  border: 2px solid rgb(211, 211, 211);
+  color: rgb(37, 37, 37);
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.right-nav .subButton:hover {
+  text-decoration: none;
+}
