@@ -1,5 +1,5 @@
 .navStaticLight {
-  height: 120px;
+  height: 95px;
   /*border: 2px solid gray;*/
 }
 
@@ -22,9 +22,10 @@
 
 .navListItem a {
   color: rgb(37, 37, 37);
-  font-weight: 300;
+  font-weight: 400;
   opacity: 0.5;
   transition: color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
 }
 
 .navListItem a:hover {
@@ -43,9 +44,9 @@
 }
 
 .mid-nav img {
-  margin-top: 10px;
-  height: 50px;
-  image-rendering: -webkit-optimize-contrast;
+  width: 125px;
+  /*height: 50px;*/
+  /*image-rendering: -webkit-optimize-contrast;*/
 }
 
 .left-nav {

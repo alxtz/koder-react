@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import styles from './BountiesMain.css'
 
+import marketplace from '../assets/images/marketplace.png'
+
 class BountiesMain extends Component {
   render() {
     return (
@@ -13,8 +15,12 @@ class BountiesMain extends Component {
           Koder is a marketplace where top developers compete for bounties, awarded in cash or cryptocurrency.
         </h2>
         <a href="#" className="signUpButton">
-          Sign up for free  
+          Sign up for free
         </a>
+        <div className="orSchedule">
+          or <a href="#" className="scheduleLink">schedule a call</a>
+        </div>
+        <img className="marketplaceImg" src={marketplace} alt="marketplace"/>
       </div>
     )
   }
