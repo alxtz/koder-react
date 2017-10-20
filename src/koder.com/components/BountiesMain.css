@@ -1,0 +1,31 @@
+.bountiesMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.koderCall {
+  font-size: 44px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  margin-top: 52px;
+}
+
+.koderIntro {
+  color: rgb(128, 128, 128);
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.highlightPurple {
+  color: rgb(93, 66, 152);
+  border-color: border-color;
+
+}
+
+.signUpButton {
+  /*letter-spacingi .5px,*/
+}
+
+/*.wrok*/

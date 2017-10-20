@@ -24,11 +24,13 @@
   color: rgb(37, 37, 37);
   font-weight: 300;
   opacity: 0.5;
+  transition: color 0.3s ease;
 }
 
 .navListItem a:hover {
   text-decoration: none;
-  color: rgb(37, 37, 37);
+  color: #5fb0e5;
+  transition: color 0.3s ease;
 }
 
 .mid-nav {
