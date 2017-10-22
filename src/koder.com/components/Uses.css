@@ -1,0 +1,24 @@
+.uses {
+  padding-top: 9em;
+}
+
+.featureImg {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+
+.featureName {
+  font-size: 1.35em;
+  font-family: "Open Sans";
+  color: #252525;
+  margin-bottom: 10px;
+}
+
+.featureIntro {
+  line-height: 1.85em;
+  color: #666666;
+  font-size: 14px;
+  font-family: "Open Sans";
+  -webkit-font-smoothing: antialiased;
+}

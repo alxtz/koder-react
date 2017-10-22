@@ -6,9 +6,7 @@ class About extends Component {
   render() {
     return (
       <div>
-        <div className="container">
-          <NavStaticLight />
-        </div>
+        <NavStaticLight />
         <h1>This is the about page.</h1>
       </div>
     );

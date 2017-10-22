@@ -6,9 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <div className="container">
-          <NavStaticLight />
-        </div>
+        <NavStaticLight />
         <h1>This is the contact page.</h1>
       </div>
     );

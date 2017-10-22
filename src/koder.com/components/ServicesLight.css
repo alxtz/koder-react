@@ -1,66 +1,28 @@
-.bountiesMain {
+.servicesLight {
+  display: flex;
+  padding-top: 100px;
+}
+
+.service {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.koderCall {
-  font-size: 44px;
+.serviceIcon {
+  color: #5d4298;
+  font-size: 5.6em;
+  margin-bottom: 15px;
+}
+
+.serviceName {
+  font-size: 1.35em;
   font-family: "Open Sans";
-  font-weight: 300;
-  margin-top: 52px;
-  letter-spacing: -0.44px;
-
-  -webkit-font-smoothing: antialiased;
+  margin-bottom: 10px;
 }
 
-.koderIntro {
-  color: rgb(128, 128, 128);
-  font-size: 19px;
-  font-weight: 400;
-  font-family: "Open Sans";
-
-  -webkit-font-smoothing: antialiased;
-}
-
-.highlightPurple {
-  color: rgb(93, 66, 152);
-  border-color: border-color;
-
-}
-
-.signUpButton {
-  letter-spacing: 1px;
-  background-color: #5d4298;
-  border: 1px solid #5d4298;
-  padding: 11px 48px;
-  font-size: 15px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Open Sans";
-  color: white;
-  border-radius: 6px;
-  margin-top: 20px;
-
-  -webkit-font-smoothing: antialiased;
-}
-
-.signUpButton:hover{
-  color: white;
-  text-decoration: none;
-}
-
-.orSchedule {
+.serviceIntro {
   font-size: 1em;
   font-family: "Open Sans";
-  -webkit-font-smoothing: antialiased;
-  margin-top: 15px;
-}
-
-.orSchedule a {
-  color: #5d4298;
-}
-
-.marketplaceImg {
-  width: 847px; 
 }

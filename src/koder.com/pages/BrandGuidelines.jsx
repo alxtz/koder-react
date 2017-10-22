@@ -6,9 +6,7 @@ class BrandGuidelines extends Component {
   render() {
     return (
       <div>
-        <div className="container">
-          <NavStaticLight />
-        </div>
+        <NavStaticLight />
         <h1>This is the brand guidelines page.</h1>
       </div>
     );

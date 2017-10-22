@@ -1,0 +1,17 @@
+.process {
+  padding-top: 80px;
+}
+
+.step {
+  height: 100px;
+}
+
+.step::before {
+  background-color: #5d4298;
+  width: 0.92857143em;
+  height: 0.92857143em;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
