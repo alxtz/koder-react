@@ -1,0 +1,29 @@
+.footerLight {
+  height: 300px;
+  padding-top: 100px;
+}
+
+.logo {
+  max-height: 1.87142857em;
+}
+
+.footerLeft {
+  display: flex;
+}
+
+.footerList {
+  padding-left: 20px;
+}
+
+.footerList li {
+  list-style-type: none;
+  display: inline;
+  font-size: 0.85714286em;
+  color: #252525;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  opacity: 0.5;
+  padding-top: 0.2em;
+  margin-right: 1.85714286em;
+}

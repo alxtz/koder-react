@@ -6,7 +6,7 @@ import styles from './NavStaticLight.css'
 class Partners extends Component {
   render() {
     return (
-      <section class=" ">
+      <section class="">
       	<div class="container">
       		<div class="row">
       			<div class="slider slider--inline-arrows slider--arrows-hover text-center" data-arrows="true" data-children="6">
