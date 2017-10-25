@@ -11,7 +11,7 @@ class NavStaticLight extends Component {
       <Router>
         <div className="container">
           <nav className="row navStaticLight">
-            <div className="col-md-4 left-nav">
+            <div className="col-xs-4 left-nav">
               <ul className="linkList">
                 <li className="navListItem">
                   <Link to="/">Home</Link>
@@ -27,10 +27,10 @@ class NavStaticLight extends Component {
                 </li>
               </ul>
             </div>
-            <div className="col-md-4 mid-nav">
+            <div className="col-xs-4 mid-nav">
               <img src={logoDark} />
             </div>
-            <div className="col-md-4 right-nav">
+            <div className="col-xs-4 right-nav">
               <a className="subButton" href="http://www.koder.com/bounties">subscriptions</a>
             </div>
           </nav>
