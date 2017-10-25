@@ -1,10 +1,6 @@
 @font-face {
   font-family: 'Socicon';
-  src:  url('../fonts/socicon.eot?a93r5t');
-  src:  url('../fonts/socicon.eot?a93r5t#iefix') format('embedded-opentype'),
-    url('../fonts/socicon.ttf?a93r5t') format('truetype'),
-    url('../fonts/socicon.woff?a93r5t') format('woff'),
-    url('../fonts/socicon.svg?a93r5t#Socicon') format('svg');
+  src:, url('../assets/fonts/socicon.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -552,4 +548,3 @@
 .socicon-zynga:before {
   content: "\e0a9";
 }
-
