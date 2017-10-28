@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {HashRouter as Router, Link} from 'react-router-dom'
+import { HashRouter as Router, Link } from 'react-router-dom'
 
 import styles from './FooterLight.css'
 import iconsmind from './socicon.css'
@@ -22,11 +22,10 @@ class FooterLight extends Component {
           </div>
           <div className="col-sm-6">
             <ul className="socialList">
-              <li>
-                <Link to="/">
-                  <i className="socicon socicon-linkedin"></i>
-                </Link>
-              </li>
+              <li><Link to="/"><i className="socicon socicon-linkedin"></i></Link></li>
+              <li><Link to="/"><i className="socicon socicon-twitter"></i></Link></li>
+              <li><Link to="/"><i className="socicon socicon-facebook"></i></Link></li>
+              <li><Link to="/"><i className="socicon socicon-instagram"></i></Link></li>
             </ul>
           </div>
         </div>
